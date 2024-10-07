@@ -5,7 +5,7 @@ import EText from '../../Components/EText';
 const Login = () => {
   return (
     <View style={{flex: 1}}>
-      <EText>{'LogIn'}</EText>
+      <EText>{'LogIns'}</EText>
     </View>
   );
 };
