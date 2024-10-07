@@ -1,12 +1,13 @@
-import {View, Text} from 'react-native';
+import {View} from 'react-native';
 import React from 'react';
+import EText from '../../Components/EText';
 
-const index = () => {
+const Login = () => {
   return (
-    <View>
-      <Text>index</Text>
+    <View style={{flex: 1}}>
+      <EText>{'LogIn'}</EText>
     </View>
   );
 };
 
-export default index;
+export default Login;
